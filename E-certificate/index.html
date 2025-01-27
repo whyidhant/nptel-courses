@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NPTEL Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 5rem 1rem;
+        }
+
+        .courses, .about, .contact, .testimonials, .footer {
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .course-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .course-item {
+            background-color: #f4f4f4;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .testimonials {
+            background-color: #f9f9f9;
+            padding: 2rem 1rem;
+        }
+
+        .testimonial-item {
+            background-color: #fff;
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to NPTEL</h1>
+            <p>Your gateway to quality education.</p>
+        </section>
+        <section class="courses">
+            <h2>Featured Courses</h2>
+            <div class="course-list">
+                <div class="course-item">
+                    <h3>Course 1</h3>
+                    <p>Description of course 1.</p>
+                </div>
+                <div class="course-item">
+                    <h3>Course 2</h3>
+                    <p>Description of course 2.</p>
+                </div>
+                <div class="course-item">
+                    <h3>Course 3</h3>
+                    <p>Description of course 3.</p>
+                </div>
+                <div class="course-item">
+                    <h3>Course 4</h3>
+                    <p>Description of course 4.</p>
+                </div>
+                <!-- Add more course items as needed -->
+            </div>
+        </section>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>NPTEL is a joint initiative of the IITs and IISc to provide quality education through online courses and video lectures. Our mission is to enhance the quality of engineering and technical education in India by providing accessible and high-quality resources for students and educators.</p>
+        </section>
+        <section class="testimonials">
+            <h2>What Our Students Say</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p>"NPTEL courses have been instrumental in my career growth. The quality of content and the expertise of the instructors are unparalleled."</p>
+                    <p>- Student 1</p>
+                </div>
+                <div class="testimonial-item">
+                    <p>"The flexibility to learn at my own pace and the comprehensive coverage of topics have made NPTEL my go-to resource for learning."</p>
+                    <p>- Student 2</p>
+                </div>
+                <!-- Add more testimonials as needed -->
+            </div>
+        </section>
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need further information, feel free to reach out to us.</p>
+            <p>Email: support@nptel.ac.in</p>
+            <p>Phone: +91-1234567890</p>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>&copy; 2024 NPTEL. All rights reserved.</p>
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("NPTEL Clone website loaded");
+            // Add your JavaScript here for additional interactivity
+        });
+    </script>
+</body>
+</html>
